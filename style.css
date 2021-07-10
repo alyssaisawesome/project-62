@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+ul {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    color: black;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+li:hover {
+    background-color: cadetblue;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    margin-bottom:10px;
+}
+
+#welcomeimg {
+    width: 100%;
+    height: 1000px;
+}
+
+#mycarousel {
+    background-color: darkcyan;
+}
+
+#mycarousel img {
+    height:300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p{
+    margin-bottom:15px;
+    margin-top:15px;
+    color:black;
+    font-size:20px;
+}
+#my2 {
+    background-color: darkslategrey;
+}
